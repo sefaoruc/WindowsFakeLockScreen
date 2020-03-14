@@ -1,8 +1,10 @@
 # WindowsFakeLockScreen
 <img src="https://i.hizliresim.com/Ii5hUx.png">
 
-Üst kısımdaki resimden de anlayacağınız gibi sahte bir login ekranıdır.
-programı visual basic ile oluşturdum.
+<img src="https://i.hizliresim.com/COYKEc.png">
+
+Üst kısımdaki resimden de anlayacağınız Windows 7 ve Windows 10 için sahte bir login ekranıdır.
+Programı visual basic ile oluşturdum.
 Mantık programda textbox kısmına girilen herhangi bir yazıyı belirlediğimiz mail adresine göndermektir.
 Bu programı BadUSB ile birlikte kullanmak amaçlı oluşturdum ve BadUSB olarak Digispark kullandım.
 
@@ -73,7 +75,10 @@ End Class
 </code></pre>
 
 Kaynak kodlardan da görebileceğiniz gibi oldukça basit bir kodlamadır.
-kodları ikinci defa yazmamın sebebi girilen texti hem enter tuşuna bastığında hem de ekrandaki ok işaretine bastığı zaman belirlediğimiz mail adresine göndermesi içindir.
+Aynı kodları kullanarak win7 ve win10 görseli hazırladım
+Kodları ikinci defa yazmamın sebebi girilen texti hem enter tuşuna bastığında hem de ekrandaki ok işaretine bastığı zaman belirlediğimiz mail adresine göndermesi içindir.
+
+
 
 
 
