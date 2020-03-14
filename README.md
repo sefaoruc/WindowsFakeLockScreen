@@ -11,11 +11,11 @@ Programı visual basic ile oluşturdum.
 Mantık programda textbox kısmına girilen herhangi bir yazıyı belirlediğimiz mail adresine göndermektir.
 Bu programı BadUSB ile birlikte kullanmak amaçlı oluşturdum ve BadUSB olarak Digispark kullandım.
 
-Amaç:
+<li>Amaç:
 BadUSB yani Digispark bilgisayara takılır
 Belirli kodlar çalışır
 sahte login ekranı oluşur
-Son olarak girilen şifre belirlediğimiz mail adresine gönderilir
+Son olarak girilen şifre belirlediğimiz mail adresine gönderilir</li>
 
 Digispark ile ilgli bilgiye ulaşmak için: https://digistump.com/wiki/digispark bu adrese bakın
 
