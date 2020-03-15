@@ -25,6 +25,12 @@ Sahte görüntü tamamen bir görseldir sadece TextBox ve Button olan kısım ek
 
 Programı Visual Studio 2013 Ultimate kullanarak hazırladım
 
+<strong>Full tutorial</strong>
+
+<url>https://www.youtube.com/watch?v=O_5SceJYqDQ&lc=z23jgtoovuykifat4acdp43apwbd1bzpcc40lscxx1tw03c010c</url>
+
+
+
 <strong>PROGRAMIN KAYNAK KODU</strong>
 
 <blockquote>
